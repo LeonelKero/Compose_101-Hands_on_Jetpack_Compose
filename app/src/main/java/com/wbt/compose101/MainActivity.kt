@@ -104,7 +104,7 @@ fun TextAndButton(name: MutableState<String>, isNameEntered: MutableState<Boolea
     }
 }
 
-@Preview(showBackground = true, locale = "fr")
+@Preview(showBackground = true, locale = "fr", showSystemUi = true)
 @Composable
 fun GreetingPreview() {
     Compose101Theme {
